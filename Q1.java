@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class Q1{
     public static void main(String[] args) {
-        Solution test = new Solution();
+        Solution1 test = new Solution1();
         int nums[] = {2,7,11,15};
         int target = 17;
         
@@ -13,7 +13,7 @@ class Q1{
 
 
 
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         int result[]=new int[2];
         
